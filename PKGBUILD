@@ -27,7 +27,7 @@ depends=('lib32-ncurses' "$_relname")
 makedepends=('nasm')
 license=('LGPL')
 source=("https://downloads.sourceforge.net/sourceforge/lame/${_relname}-${pkgver}.tar.gz")
-sha256sums=('ddfe36cab873794038ae2c1210557ad34857a4b6bdc515785d1da9e175b1da1e')
+sha512sums=('ddfe36cab873794038ae2c1210557ad34857a4b6bdc515785d1da9e175b1da1e')
 
 build() {
     cd "${_relname}-${pkgver}"
